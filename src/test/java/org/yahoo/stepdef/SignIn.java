@@ -30,5 +30,9 @@ public class SignIn extends BaseClass{
 		ScreenShot(string);
 		System.out.println(10/0);
 	}
-
+	@Then("close the browser")
+	public void close_the_browser() {
+	  driver.close();
+	    
+	}
 }
