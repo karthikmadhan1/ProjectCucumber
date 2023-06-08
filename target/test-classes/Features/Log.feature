@@ -7,7 +7,7 @@ Feature: Validation of facebook login
     |karthikeyan|123685649|
     |8015191938|karthikeyan|
     Then TakeScreenshot "Attempt1"
-    Then close the browser
+    
     
  		
    Scenario: validate the login using credentials
@@ -16,6 +16,6 @@ Feature: Validation of facebook login
     |123685649|karthikeyan|
     |karthikeyan|8015191938|
     Then TakeScreenshot "Attempt2"
-    Then close the browser
+   
 
  
