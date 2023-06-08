@@ -7,6 +7,7 @@ Feature: Validation of facebook login
     |karthikeyan|123685649|
     |8015191938|karthikeyan|
     Then TakeScreenshot "Attempt1"
+    And close the window
     
     
  		
@@ -16,6 +17,7 @@ Feature: Validation of facebook login
     |8015191938|karthikeyan|
     |karthikeyan|karthikeyan|
     Then TakeScreenshot "Attempt2"
+    And close the window
    
 
  
