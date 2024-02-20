@@ -55,8 +55,13 @@
     <version>4.13.2</version>
     <scope>test</scope>
 </dependency>
-    
-  </dependencies>
+
+   	<dependency>
+   		<groupId>cucumber.in</groupId>
+   		<artifactId>Cucumber</artifactId>
+   		<version>0.0.1-SNAPSHOT</version>
+   	</dependency>
+   </dependencies>
 
   
 </project>
