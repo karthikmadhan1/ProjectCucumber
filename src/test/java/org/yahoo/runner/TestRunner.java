@@ -9,5 +9,6 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = "src\\test\\resources\\Features\\Log.feature",glue = "org\\yahoo\\stepdef",tags = ("@smoke"),dryRun = false,
 monochrome = true,plugin = {"pretty","html:name.html","json:name.json","rerun:target\\failed.txt"})
 public class TestRunner {
+
 }
      

@@ -8,7 +8,7 @@ import io.cucumber.java.Before;
 public class Hooks extends BaseClass{
 	@Before
 	public void  start() {
-		launchBrowser("edge");
+		launchBrowser("chrome");
 	}
 	
 	@After
